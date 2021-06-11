@@ -32,7 +32,15 @@ cin >>m3;
 	}
 	else
 	{
-		cout <<"\n The student 1 and 3 has scored equal marks";
+		if (m1==m3)
+		{
+			cout <<"\n The student 1 and 3 has scored equal marks";
+		}
+		else
+		{
+			if (m2==m3)
+			cout <<"\nThe student 2 and 3 has scored equal marks ";
+		}
 	}
 	
 return 0;
