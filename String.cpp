@@ -5,10 +5,11 @@ int main()
 {
 char name[]="Cpp";
 cout <<name <<"\n";
-string surname;
+string surname; //string is a datatype 
 cout <<"Enter the surname :";
 cin >>surname;
 //getline(cin,surname); //does the same function by cin
 cout <<surname <<"\n";
+cout <<name <<"\t" <<surname;
 return 0;
 }
